@@ -29,7 +29,7 @@ var = tk.StringVar()
 var.set("Units")
 drop = tk.OptionMenu(root, var, "Pounds",  "Inches", "Feet", "Kg", "Cm", "Meters")
 drop.grid(row=0, column=1, padx=5, pady=(40, 5))
-drop.configure(bg="white")
+drop.configure(bg="white", width=6)
 
 #Button
 def button_action():
